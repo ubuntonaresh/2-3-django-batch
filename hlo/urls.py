@@ -7,4 +7,5 @@ urlpatterns = [
     path("abc", views.akjsdka),
 
     path("conatct", views.contactus),
+    path("conatct-us-data", views.getdata),
 ]

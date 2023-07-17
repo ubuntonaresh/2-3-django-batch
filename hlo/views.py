@@ -30,3 +30,10 @@ def contactus(request):
 
 
     return render(request, "contactus.html")
+
+
+
+def getdata(request):
+    abc = ContactUs.objects.all()
+
+    return render(request, "contactdata.html", {'xyz' : abc})
